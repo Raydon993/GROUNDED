@@ -1,0 +1,300 @@
+a,abbr,address,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,iframe,img,ins,label,legend,li,object,ol,p,pre,q,small,span,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,ul {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+article,aside,figcaption,figure,figure img,footer,header,hgroup,nav,object,section,video {
+    display: block
+}
+
+li, ol, p, ul {
+    line-height: 1.5em;
+    list-style: none;
+}
+
+body{
+	background-color: rgb(0,0,0);
+	min-width: 1000px;
+}
+
+.main-page{
+	width: 100%;
+	height: 100vh;
+}
+
+
+.logo{
+	width: 100%;
+	height: 60px;
+	background-color: rgb(42,237,36);
+	text-align: right;
+	font-size: 1.5em;
+}
+
+.logo ul{
+	height: 60px;
+	padding-right: 20px;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+}
+
+.logo ul li{
+	line-height: 0.9em;
+}
+
+.logo-eng{
+	font-family: "Gosha"
+}
+
+.logo-chn{
+	font-family: "GlowNormalBold"
+}
+
+.toolbar{
+	width: 100%;
+	color: rgb(42,237,36);
+	font-size: 1.3em;
+}
+
+.toolbar ul{
+	margin: 0 auto;
+	padding:30px 50px;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.toolbar-chn{
+	font-family: "GlowNormalBook"
+}
+
+.toolbar-eng{
+	font-family: "Arial"
+}
+
+.toolbar ul{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:justify;
+    -webkit-justify-content:space-between;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+}
+
+.toolbar ul li p{
+	letter-spacing:5px;
+	white-space: pre;
+	display: inline-block;
+}
+
+.toolbar ul li a{
+	color: rgb(42,237,36);
+	text-decoration: none;
+}
+
+.focus-box{
+	width: 100%;
+}
+
+.video-box{
+	width: 50%;
+	display: flex;
+	padding-top: 30px;
+	margin: 0 auto;
+	min-width: 500px;
+}
+
+.intro-text{
+	box-sizing:border-box;
+	width: 55%;
+	padding-top: 80px;
+	padding-left: 100px;
+	font-family: "PingFangSC-Light","Microsoft YaHei Light",sans-serif;
+	font-size: 1.1em;
+	text-align: justify;
+	color: rgb(255,255,255);
+	float: left;
+}
+
+.intro-text p{
+	line-height: 1.78;
+	margin-top: 10px;
+}
+
+.intro-img{
+	box-sizing:border-box;
+	width: 45%;
+	float: right;
+	color: rgb(255,255,255);
+}
+
+.intro-img img{
+	width: 60%;
+	padding-top: 60px;
+	padding-left: 90px;
+
+}
+
+.big-video-box{
+	width: 90%;
+	margin:0 auto;
+	padding-top: 100px;
+}
+
+.species{
+	width: 80%;
+	padding-top: 50px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.species-img{
+	width: 40%;
+	height: auto;
+	float: left;
+}
+
+.species-img img{
+	width: 80%
+}
+
+
+.species-text{
+	width: 60%;
+	height: auto;
+	float: left;
+	text-align: justify;
+	letter-spacing:3px;
+	font-family: "PingFangSC-Light","Microsoft YaHei Light",sans-serif;
+	color: rgb(255,255,255);
+
+}
+
+.species-name{
+	color: rgb(42,237,36);
+}
+
+.species-intro{
+	padding-top: 20px;
+}
+
+.aboutme{
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 200px;
+
+}
+
+.me-eng{
+	font-size: 1.0em;
+	color: rgb(161,0,255);
+	line-height: 1.6;
+	font-family: "EuroticaBug","PingFangSC-Light","Microsoft YaHei Light",sans-serif;
+	text-align: justify;
+	letter-spacing: 2px;
+}
+
+.me-chn{
+	padding-top: 40px;
+	font-size: 1.1em;
+	color: rgb(161,0,255);
+	line-height: 1.5;
+	font-family: "PingFangSC-Light","Microsoft YaHei Light",sans-serif;
+	text-align: justify;
+	letter-spacing: 2px;
+}
+
+.me-contact{
+	padding-top: 100px;
+	font-size: 1.0em;
+	color: rgb(161,0,255);
+	line-height: 1.6;
+	font-family: "EuroticaBug","PingFangSC-Light","Microsoft YaHei Light",sans-serif;
+	text-align: justify;
+	letter-spacing: 2px;
+}
+
+
+.info{
+	width: 100%;
+	padding-top: 100px;
+	margin: 0 auto;
+	display: flex;
+}
+.info-img{
+	padding-left: 50px;
+	height: 100px;
+	float: left;
+}
+
+.info-img img{
+	height: 70px;
+}
+
+.info-text{
+	padding-left: 50px;
+	padding-right: 200px;
+	font-size: 0.7em;
+	color: rgb(255,255,255);
+	line-height: 2.5;
+	font-family: "PingFangSC-Light","Microsoft YaHei Light",sans-serif;
+	text-align: justify;
+	letter-spacing: 2px;
+	float: left;
+}
+
+
+.copyright{
+	padding-top: 25px;
+	padding-left: 50px;
+	padding-right: 200px;
+	font-size: 0.1em;
+	color: rgb(255,255,255);
+	line-height: 2;
+	font-family: "PingFangSC-Light","Microsoft YaHei Light",sans-serif;
+	text-align: justify;
+}
+
+@font-face{
+	font-family: "Gosha";
+	src:url('f/GoshaSans-Bold.otf') format('opentype');
+	font-display:block;
+}
+
+@font-face{
+	font-family: "GlowNormalBold";
+	src:url('f/GlowSansTC-Normal-Bold.otf') format('opentype');
+	font-display:block;
+}
+
+@font-face{
+	font-family: "GlowNormalBook";
+	src:url('f/GlowSansTC-Normal-Book.otf') format('opentype');
+	font-display:block;
+}
+
+@font-face{
+	font-family: "EuroticaBug";
+	src:url('f/EuroticaBug1.otf') format('opentype');
+	font-display:block;
+}
+
+@media screen and (max-device-width: 992px) and (orientation:portrait) {
+    .main-page{
+    	width: 100%;
+    	height: auto;
+    }
+/*    .intro-text{
+    	width: 100%;
+    	padding: 100px 100px;
+		margin: 0 auto;
+		clear:both;
+    }
+    .intro-img{
+    	width: 100%;
+    }*/
+}
