@@ -101,9 +101,9 @@ body{
 }
 
 .video-box{
-	width: 50%;
+	width: 65%;
 	display: flex;
-	padding-top: 30px;
+	padding-top: 60px;
 	margin: 0 auto;
 	min-width: 500px;
 }
@@ -252,7 +252,7 @@ body{
 	padding-top: 25px;
 	padding-left: 50px;
 	padding-right: 200px;
-	font-size: 0.1em;
+	font-size: 5px;
 	color: rgb(255,255,255);
 	line-height: 2;
 	font-family: "PingFangSC-Light","Microsoft YaHei Light",sans-serif;
@@ -261,25 +261,25 @@ body{
 
 @font-face{
 	font-family: "Gosha";
-	src:url('f/GoshaSans-Bold.otf') format('opentype');
+	src:url('f/GoshaSans-Bold.otf') format('truetype');
 	font-display:block;
 }
 
 @font-face{
 	font-family: "GlowNormalBold";
-	src:url('f/GlowSansTC-Normal-Bold.otf') format('opentype');
+	src:url('f/GlowSansTC-Normal-Bold.otf') format('truetype');
 	font-display:block;
 }
 
 @font-face{
 	font-family: "GlowNormalBook";
-	src:url('f/GlowSansTC-Normal-Book.otf') format('opentype');
+	src:url('f/GlowSansTC-Normal-Book.otf') format('truetype');
 	font-display:block;
 }
 
 @font-face{
 	font-family: "EuroticaBug";
-	src:url('f/EuroticaBug1.otf') format('opentype');
+	src:url('f/EuroticaBug1.otf') format('truetype');
 	font-display:block;
 }
 
