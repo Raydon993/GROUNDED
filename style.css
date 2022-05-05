@@ -29,28 +29,15 @@ body{
 	height: 60px;
 	background-color: rgb(42,237,36);
 	text-align: right;
-	font-size: 1.5em;
 }
 
-.logo ul{
-	height: 60px;
-	padding-right: 20px;
-	display: flex;
-    flex-direction: column;
-	justify-content: center;
+.logo img{
+	height: 40px;
+	padding-top: 10px;
+	padding-right: 10px;
+
 }
 
-.logo ul li{
-	line-height: 0.9em;
-}
-
-.logo-eng{
-	font-family: "Gosha"
-}
-
-.logo-chn{
-	font-family: "GlowNormalBold"
-}
 
 .toolbar{
 	width: 100%;
@@ -102,8 +89,7 @@ body{
 
 .video-box{
 	width: 65%;
-	display: flex;
-	padding-top: 60px;
+	padding-top: 50px;
 	margin: 0 auto;
 	min-width: 500px;
 }
@@ -111,7 +97,7 @@ body{
 .intro-text{
 	box-sizing:border-box;
 	width: 55%;
-	padding-top: 80px;
+	padding-top: 130px;
 	padding-left: 100px;
 	font-family: "PingFangSC-Light","Microsoft YaHei Light",sans-serif;
 	font-size: 1.1em;
@@ -127,6 +113,7 @@ body{
 
 .intro-img{
 	box-sizing:border-box;
+	padding-top: 50px;
 	width: 45%;
 	float: right;
 	color: rgb(255,255,255);
@@ -142,6 +129,7 @@ body{
 .big-img-box{
 	width: 100%;
 	padding-top: 100px;
+	padding-bottom: 100px;
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -223,7 +211,7 @@ body{
 
 .info{
 	width: 100%;
-	padding-top: 100px;
+	padding-top: 120px;
 	margin: 0 auto;
 	display: flex;
 }
@@ -249,29 +237,17 @@ body{
 	float: left;
 }
 
-
 .copyright{
-	padding-top: 25px;
 	padding-left: 50px;
 	padding-right: 200px;
-	font-size: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12px;
 	color: rgb(255,255,255);
 	line-height: 2;
-	font-family: "PingFangSC-Light","Microsoft YaHei Light",sans-serif;
-	text-align: justify;
+	font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
 }
 
-@font-face{
-	font-family: "Gosha";
-	src:url('f/GoshaSans-Bold.otf') format('truetype');
-	font-display:block;
-}
-
-@font-face{
-	font-family: "GlowNormalBold";
-	src:url('f/GlowSansTC-Normal-Bold.otf') format('truetype');
-	font-display:block;
-}
 
 @font-face{
 	font-family: "GlowNormalBook";
@@ -289,6 +265,11 @@ body{
     .main-page{
     	width: 100%;
     	height: auto;
+    }
+    .last-page{
+    	width: 100%;
+    	height: 100vh;
+    	position: relative;
     }
 /*    .intro-text{
     	width: 100%;
