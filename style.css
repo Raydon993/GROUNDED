@@ -139,10 +139,12 @@ body{
 
 }
 
-.big-video-box{
-	width: 90%;
-	margin:0 auto;
+.big-img-box{
+	width: 100%;
 	padding-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
 
 .species{
