@@ -127,13 +127,63 @@ body{
 }
 
 .big-img-box{
-	width: 100%;
+	width: 100vw;
+	height: 50vw;
 	padding-top: 100px;
-	padding-bottom: 100px;
-	display: flex;
 	justify-content: center;
 	align-content: center;
+	overflow: hidden;
+	position: relative;
 }
+
+
+.slides{
+	position:relative;
+	width: 80%;
+	height: inherit;
+	list-style: none;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.slide{
+	display: flex;
+	margin: 0;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+.slide img{
+	width: 100%;
+}
+
+.img-left{
+	width: 32px;
+    height: 32px;
+    position: absolute;
+    background-image: url("img/arrow_left.png");  /*按钮背景用一张图片*/
+    background-size: cover;
+    top: 50%;
+    left: 12%;
+    display: block;
+    z-index: 9999;
+}
+
+.img-right{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background-image: url("img/arrow_right.png");
+    background-size: cover;
+    top:50%;
+    right: 12%;
+    display: block;
+    z-index: 9999;
+}
+
 
 .species{
 	width: 80%;
