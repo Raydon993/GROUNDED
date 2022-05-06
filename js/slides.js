@@ -10,7 +10,7 @@ $(function(){
 $(".img-left").click(function () {
     console.log("a");
     num--;
-    num = (num <= -1?4:num);
+    num = (num <= -1?5:num);
                 changeImg(num);
 })
 })
@@ -20,7 +20,7 @@ $(function(){
 $(".img-right").click(function () {
     console.log("b");
     num++;
-    num = (num >= 5?0:num);
+    num = (num >= 6?0:num);
     changeImg(num);
 })
 })
