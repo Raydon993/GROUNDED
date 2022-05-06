@@ -8,7 +8,6 @@ function changeImg(num) {
 //点击左边按钮，图片向左边切换
 $(function(){
 $(".img-left").click(function () {
-    console.log("a");
     num--;
     num = (num <= -1?5:num);
                 changeImg(num);
@@ -18,7 +17,6 @@ $(".img-left").click(function () {
 //点击右边按钮，图片向右边切换
 $(function(){
 $(".img-right").click(function () {
-    console.log("b");
     num++;
     num = (num >= 6?0:num);
     changeImg(num);
