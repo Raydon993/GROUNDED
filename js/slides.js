@@ -1,4 +1,6 @@
 var num = 0;
+
+window.onload =function() { changeImg(0); }
 //图片切换函数
 function changeImg(num) {
                     //eq(num) 根据num获取元素集合中下标为num的jQuery元素对象  让其淡入 ，除了它之外的元素淡出
